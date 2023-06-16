@@ -1,4 +1,5 @@
 #!/bin/bash -e
+# This does not work because of libx11 dependency not being installable
 # brew install swagger-codegen
 VERSION="2.4.32"
 mkdir downloads
