@@ -1,0 +1,20 @@
+---
+openapi: 3.0.0
+info:
+  title: Marks API
+  description: Mark Veltzer's API
+  version: 0.1
+paths:
+  /seven:
+    get:
+      summary: returns the number 7
+      description: bla bla bla bla...
+      responses:
+        '200':
+          description: the number seven
+          content:
+            application/json:
+              schema:
+                type : integer
+                format: int64
+                minimum: 1
