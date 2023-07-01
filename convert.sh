@@ -3,4 +3,4 @@
 # yaml2json my.yaml -p -i4 > my.json
 yaml2json my.yaml > my.json
 
-# java -jar downloads/swagger-codegen-cli.jar
+# java -jar downloads.gi/swagger-codegen-cli.jar
