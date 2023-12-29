@@ -1,6 +1,6 @@
-"""
-python dependencies for this project
-"""
+config_requires = []
+dev_requires = []
+install_requires = []
 make_requires = [
     "flask",
     "mysql-connector-python",
@@ -21,3 +21,5 @@ make_requires = [
     "pyflakes",
     "mypy",
 ]
+test_requires = []
+requires = config_requires + install_requires + make_requires + test_requires
