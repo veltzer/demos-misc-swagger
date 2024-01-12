@@ -1,7 +1,7 @@
 config_requires = []
 dev_requires = []
 install_requires = []
-make_requires = [
+build_requires = [
     "flask",
     "mysql-connector-python",
     "pyvardump",
@@ -22,4 +22,4 @@ make_requires = [
     "mypy",
 ]
 test_requires = []
-requires = config_requires + install_requires + make_requires + test_requires
+requires = config_requires + install_requires + build_requires + test_requires
