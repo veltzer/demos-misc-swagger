@@ -1,8 +1,4 @@
-name = "demos-qemu"
-description_short = "Demos showing how to build your own embedded systems with qemu"
+name = "demos-swagger"
+description_short = "Demos on how to use swagger"
 keywords = [
-    "qemu",
-    "linux",
-    "embedded",
-    "buildroot",
 ]
