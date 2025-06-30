@@ -2,4 +2,6 @@
 
 import config.shared
 
-requires: list[str] = []
+build_requires: list[str] = config.shared.BUILD
+test_requires: list[str] = config.shared.TEST
+requires = build_requires + test_requires
