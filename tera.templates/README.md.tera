@@ -14,6 +14,9 @@ website: https://{{ personal.GITHUB_USERNAME }}.github.io/{{ project.NAME }}
 {% for wf in workflow_names() -%}
 ![{{ wf.name }}](https://github.com/{{ personal.GITHUB_USERNAME }}/{{ project.NAME }}/workflows/{{ wf.name }}/badge.svg)
 {% endfor %}
+{% if project.DESCRIPTION_LONG is defined -%}
+{{ project.DESCRIPTION_LONG }}
+{% endif -%}
 ## Contact
 
 chat with me at [![gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veltzer/mark.veltzer)
