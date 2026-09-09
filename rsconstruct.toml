@@ -42,6 +42,7 @@ src_files = ["convert.sh", "install.sh", "run_docker.sh"]
 
 [processor.yamllint]
 src_files = ["api.yaml", "my.yaml"]
+src_dirs = [".github"]
 
 # ─── json ────────────────────────────────────────────────────────────────────
 
