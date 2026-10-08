@@ -44,7 +44,7 @@ src_files = ["convert.sh", "install.sh", "run_docker.sh"]
 
 # ─── yaml ────────────────────────────────────────────────────────────────────
 
-[processor.checker.yamllint]
+[processor.checker.iyamllint]
 src_files = ["api.yaml", "my.yaml"]
 src_dirs = [".github"]
 
