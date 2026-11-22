@@ -5,7 +5,7 @@
 
 description: Demos on how to use swagger
 
-project website: https://veltzer.github.io/demos-misc-swagger
+project website: <https://veltzer.github.io/demos-misc-swagger>
 
 author: Mark Veltzer
 
