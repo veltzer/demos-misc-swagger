@@ -52,3 +52,8 @@ src_dirs = [".github"]
 
 [processor.checker.ijsonlint]
 src_files = ["my.json"]
+
+# every lint suppression names a rule and says why (see the fleet's CLAUDE.md)
+[processor.checker.suppressions]
+src_dirs = [".github", "config"]
+src_files = [".yamllint.yaml", "README.md", "api.yaml", "convert.sh", "install.sh", "my.yaml", "run_docker.sh"]
